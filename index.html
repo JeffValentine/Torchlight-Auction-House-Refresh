@@ -156,8 +156,8 @@
     </select>
     <p class="disclaimer">⚠️ Don't minimize this tab — drag it aside or switch apps instead. Minimizing may pause the timer.</p>
   </div>
-  <video id="silentVideo" autoplay muted loop playsinline>
-    <source src="silent.mp4" type="video/mp4">
+  <video autoplay muted loop playsinline style="position:absolute; width:1px; height:1px; opacity:0.01; pointer-events:none;">
+    <source src="silent_1x1.webm" type="video/webm" />
   </video>
   <audio id="alertSound" preload="auto"></audio>
   <script>
